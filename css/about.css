@@ -1,0 +1,23 @@
+.about {
+    border-radius: 5px;
+}
+
+.about-title {
+    text-align: left;
+}
+
+#row1 {
+    height: 15%;
+    width: 45%;
+    display: flexbox;
+    flex-wrap: wrap;
+    float: left;
+}
+
+#row2 {
+    height: 15%;
+    width: 45%;
+    display: flexbox;
+    flex-wrap: wrap;
+    float: right;
+}
