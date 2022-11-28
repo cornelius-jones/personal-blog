@@ -14,6 +14,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
+    display: flexbox;
 }
 
 header {
@@ -51,7 +52,7 @@ ul {
 li {
     display: inline;
     list-style: none;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 #shell {
@@ -118,7 +119,7 @@ li {
     }
 
     span {
-        border: 1px solid #FFFFFF;
+        border: 1px solid #fff;
         color: #303337;
         border-radius: 2px;
     }
@@ -180,7 +181,7 @@ h2 {
 
 h3 {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 24px;
+    font-size: 10px;
     color: rgb(242, 165, 22);
     font-weight: bolder;
 }
@@ -214,7 +215,7 @@ figcaption {
 .continue {
     background-color: #ca4e2f;
     border: none;
-    color: #FFFFFF;
+    color: #fff;
     padding: 10px 24px;
     text-align: center;
     text-decoration: none;
@@ -227,8 +228,25 @@ figcaption {
 
 .continue:hover {
     background-color: #303337;
-    color: white;
+    color: #fff;
     border-radius: 2px;
+}
+
+.post-previous-l {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    float: left;
+}
+
+.post-previous-r {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    float: right;
+    justify-content: end;
+    justify-items: end;
 }
 
 /* Footer Section */
