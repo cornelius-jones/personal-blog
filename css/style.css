@@ -14,7 +14,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    display: flexbox;
+    display: inline-block;
 }
 
 header {
@@ -23,6 +23,10 @@ header {
     font-weight: 800;
     color: #bd3d34;
     margin: 2.5% 0 2.5% 0;
+}
+
+.title {
+    width: auto;
 }
 
 p {
@@ -74,7 +78,7 @@ li {
     border-bottom: 1px solid #102737;
     width: 100%;
     height: 300px;
-    display: flexbox;
+    display: inline-block;
 }
 
 /*****Media Queries*****/
@@ -87,7 +91,7 @@ li {
         margin: auto;
     }
 
-    .section {
+    .sectional {
         background-color: #fff;
         width: 24%;
         display: inline-block;
@@ -100,6 +104,10 @@ li {
         color: #303337;
         border-radius: 2px;
     }
+
+    .form-img {
+        width: 50%;
+    }
 }
 
 /*********1000px rule*********/
@@ -110,7 +118,7 @@ li {
         margin: 0 auto;
     }
 
-    .section {
+    .sectional {
         background-color: #fff;
         width: 80%;
         display: inline-block;
@@ -123,6 +131,10 @@ li {
         color: #303337;
         border-radius: 2px;
     }
+
+    .form-img {
+        width: 50%;
+    }
 }
 
 /*********1200px rule*********/
@@ -132,7 +144,7 @@ li {
         width: 95%;
     }
 
-    .section {
+    .sectional {
         background-color: #fff;
         width: 26.50%;
         display: inline-block;
@@ -145,6 +157,12 @@ li {
         color: #303337;
         text-align: left;
     }
+
+    .form-img {
+        width: 40%;
+        height: 30%;
+        overflow: auto;
+    }
 }
 
 /* main content section */
@@ -155,7 +173,7 @@ li {
     background-color: #d0d0d0;
 }
 
-.section {
+.sectional {
     /*border: 1px solid #3F8C1B;*/
     padding: 20px;
     display: inline-block;
@@ -195,7 +213,6 @@ h3 {
 blockquote p {
     font-weight: lighter;
     font-size: 24px;
-    font-style: italic;
     font-family: Helvetica, Geneva, Tahoma, sans-serif;
 }
 

@@ -7,6 +7,8 @@
 /*********800px rule*********/
 @media screen and (min-width: 800px) {
     .main {
+        display: flex;
+        justify-content: center;
         text-align: center;
         width: 95%;
         margin: 0 auto;
@@ -15,7 +17,7 @@
     .section-blog-page {
         background-color: #fff;
         width: 80%;
-        display: flexbox;
+        display: inline-block;
         text-align: left;
         border-radius: 2px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -35,6 +37,8 @@
 /*********1000px rule*********/
 @media screen and (max-width: 1000px) {
     .main {
+        display: flex;
+        justify-content: center;
         text-align: left;
         width: 95%;
         margin: 0 auto;
@@ -62,6 +66,8 @@
 /*********1200px rule*********/
 @media screen and (min-width: 1200px) {
     .main {
+        display: flex;
+        justify-content: center;
         text-align: left;
         width: 95%;
         margin: 0 auto;
@@ -79,6 +85,7 @@
     }
 
     .post {
+        display: flex;
         font-size: 45px;
         font-weight: bolder;
         text-align: left;
