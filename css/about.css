@@ -9,7 +9,7 @@
 #row1 {
     height: 15%;
     width: 45%;
-    display: inline-block;
+    display: flexbox;
     flex-wrap: wrap;
     float: left;
 }
@@ -17,7 +17,7 @@
 #row2 {
     height: 15%;
     width: 45%;
-    display: inline-block;
+    display: flexbox;
     flex-wrap: wrap;
     float: right;
 }
