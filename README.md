@@ -1,6 +1,6 @@
 # Personal Blog Website
 ### This project is part of the Udacity Front-end Development nanodegree program.
-The project requires you to utilize HTML and CSS skills to build out a personal blog website that includes 
+As part of the Udacity Front-end Development nanodegree, this project required the use of HTML and CSS to build out a personal blog website that includes 
  
  - Custom images and design
  - Information architecture 
